@@ -131,6 +131,9 @@ a:hover{
     position: relative;
     
 }
+.tab-links:hover{
+  color: #fff;
+}
 
 
 .tab-links::after{
@@ -195,6 +198,7 @@ nav .fas{
 
 .contact-left{
   flex-basis: 35%;
+  color: #ababab;
 }
 .contact-right{
   flex-basis: 60%;
@@ -234,10 +238,11 @@ nav .fas{
   display: inline-block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid #00ff00;
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
+  font-family: 'JetBrains Mono', sans-serif;
+  font-weight: 600;
   color: #080808;
   background-color: #00ff00;
   transition: .3s ease-in;
@@ -257,6 +262,7 @@ form input, form textarea{
   margin: 15px 0;
   color: #fff;
   border-radius: 6px;
+  resize: none;
 }
 form .btn{
   padding: 14px 60px;
@@ -266,7 +272,14 @@ form .btn{
 }
 
 /*---------------responsive-------------------------------*/
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1400px){
+  .header-text{
+    margin-top: 55%;
+  }
+}
+
+
+@media only screen and (max-width: 500px){
   #header{
     background-image: url(media/world.jpg);
   }
@@ -277,6 +290,9 @@ form .btn{
   }
   .header-text h1{
     font-size: 30px;
+  }
+  nav .fas:hover{
+    color: #ababab;
   }
   nav .fas{
     display: block;
@@ -322,5 +338,4 @@ form .btn{
     margin-right: 20px;
   }
 }
-
 
