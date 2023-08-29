@@ -125,6 +125,7 @@ nav .fas{
     max-height: 250px;
     overflow: hidden;
     font-weight: 600;
+    margin-bottom: 10%;
 }
 .project:hover{
     background: linear-gradient( #6dfc6d, transparent) #00ff00;
