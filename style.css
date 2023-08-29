@@ -246,6 +246,7 @@ nav .fas{
   color: #080808;
   background-color: #00ff00;
   transition: .3s ease-in;
+  border: 0;
 }
 .btn:hover{
   transform: scale(1.1);
