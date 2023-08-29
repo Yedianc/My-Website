@@ -19,6 +19,7 @@
           <li><a href="#header">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="./project.html">Projects</a></li>
           <i class="fas fa-times" onclick="closemenu()"></i>
         </ul>
         <i class="fas fa-bars" onclick="openmenu()"></i>
@@ -62,6 +63,31 @@
       </div>
     </div>
   </div>
+
+<!-------------------------------contact------------------------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fas fa-paper-plane"></i> contact@example.com</p>
+          <p><i class="fas fa-phone-square-alt"></i> 02651651</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/yedian-cuinas-990a2027b/"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" class="name" placeholder="Name" required>
+            <input type="email" class="email" placeholder="Email">
+            <textarea name="Message" rows="6" placeholder="Message"></textarea>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- ---------------scripts------------------ -->
   <script>
 
@@ -91,23 +117,7 @@
 
 
   </script>
-  <!-------------------------------FORM------------------------->
-  <div class="contact">
-    <h2>Contact</h2>
-  </div>
-<div id="contact">
-  <form class="form" action="/action_page.php">
-    <label for="fname">First Name:</label><br>
-    <input type="text" id="fname" name="fname" placeholder="First Name"><br><br>
-    <label for="lname">Last Name:</label><br>
-    <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" placeholder="Email"><br><br>
-    <label for="tel">Phone Number:</label><br>
-    <input type="tel" id="tel" name="tel" placeholder="Phone Number"><br><br>
-    <input type="submit" id="submit" value="submit">
-  </form>
-</div>
+  
 </body>
 
 </html>
